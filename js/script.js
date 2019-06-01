@@ -1,12 +1,12 @@
 var Poke = angular.module("Poke",[])
-Poke.controller("ListadoPokemon",function($scope,$rootScope,$http){
-	$scope.Lista = [];
+Poke.controller("LisPoke",function($scope,$rootScope,$http){
+	$scope.Lis = [];
 	for(var y=1;y<=100;y++){
 		$http({
 		method:"GET",
 		url:"https://pokeapi.co/api/v2/pokemon/"+y
-	}).then(function datos(x){
-		$scope.Lista.push(x);
+	}).then(function pokedex(x){
+		$scope.Lis.push(x);
 	});
 	}
 	
