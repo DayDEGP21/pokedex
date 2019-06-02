@@ -2,17 +2,28 @@
 <html ng-app="Poke">
 	<head>
 		<script src="lib/jquery.js"></script>
+		<meta charset="UTF-8">
 		<title>NPokedex</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="lib/boo/css/bootstrap.css">
 	</head>
 	<body ng-controller="LisPoke">
+
+		<div class="container tit">
+			<div class="row">
+				<div class="col-md-12">
+				<h1>Npokedex</h1>
+				</div>
+			</div>
+		</div>
+
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 text-center col-sm-4" ng-repeat="L in Lis">
 					<div>
 
-					<img src="{{L.data.sprites.front_default}}" alt="Pok">
+					<img src="{{L.data.sprites.front_default}}">
 					</div>
 					<div class="nameP">{{L.data.name}}</div>
 				</div>

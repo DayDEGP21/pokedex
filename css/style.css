@@ -1,0 +1,12 @@
+body {
+	background: url(http://www.hdfondos.eu/preview/get_photo/150194/1920/1200);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.tit {
+	background-color: white;
+	text-align: center;
+	height: 70px;
+}
