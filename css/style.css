@@ -1,12 +1,56 @@
 body {
-	background: url(http://www.hdfondos.eu/preview/get_photo/150194/1920/1200);
+	background: url(https://wallpaperstock.net/wallpapers/thumbs1/34435hd.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .tit {
-	background-color: white;
+	border: 1px solid black;
+	background-color: #ABEBC6;
+}
+
+.In{
+	border: 1px solid black;
+}
+
+.In:hover {
 	text-align: center;
-	height: 70px;
+}
+
+.In2:hover {
+	text-align: center;
+}
+
+.esp {
+	height: 50px;
+}
+
+.tit .subtit {
+  /* Full Size Container */
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.pkim {
+  width: 150px;
+}
+
+.pkim:hover {
+  width: 200px;
+}
+
+.mar {
+	border: 3px solid black;
+	background-color: #FDF5DE;
+	display:flex;
+  	align-items: center;
+  	box-shadow: 3px 2px 5px #54585C;
+  	justify-content: center;
+}
+
+.nameP {
+	border: 3px solid black;
+	background-color: #EDBB99;
 }
