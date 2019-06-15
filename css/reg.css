@@ -1,7 +1,7 @@
 body{
 	font-family: Arial, Helvetica, sean-serif;
 	margin: 0;
-	background: url(https://images4.alphacoders.com/641/thumb-350-641968.jpg);
+	background: url(https://images4.alphacoders.com/988/thumb-1920-988532.png);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -13,13 +13,13 @@ body{
 	padding: #fff;
 }
 .formulario{
-	background:#fff;
+	background:#FDF5DE;
 	margin-top: 100px;
 	padding:3px;
 }
 h1 {
 	text-align: center;
-	color: #1a2537;
+	color: cadetblue;
 	font-size: 40px;
 }
 input[type="text"],
@@ -38,13 +38,13 @@ input[type="password"]{
 	width: 100%;
 	color: white;
 	font-size: 20px;
-	background: #1a2537;
+	background: cadetblue;
 	padding: 15px 20px;
 	border-radius: 5px;
 	cursor: pointer; 
 }
 .button:hover{
-	background: cadetblue;
+	background: #EDBB99;
 }
 p{
 	text-align: center;

@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 body {
-    background: url(https://images4.alphacoders.com/641/thumb-350-641968.jpg);
+    background: url(https://images4.alphacoders.com/988/thumb-1920-988532.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,9 +20,6 @@ html {
   width: 100%; 
 }
 
-/* =========================================
-Stark Industries Logo
-========================================= */
 #logo {
   width: 500px;
   margin: 0 auto;
@@ -32,7 +29,7 @@ Stark Industries Logo
 
 h1 {
   font-family: 'Ubuntu', sans-serif;
-  color: #00a4a2;
+  color: #ABEBC6;
   font-size: 48px;
   font-size: 4.8rem;
   font-weight: bold;
@@ -41,37 +38,37 @@ h1 {
   text-align:center;
 }
 
-  h1:before {
-    animation: before-glow 2s ease-out infinite alternate;
-    border-left: 535px solid transparent;
-    border-bottom: 10px solid #00a4a2;
-    content: ' ';
-    height: 0;
-    position: absolute;
-    right: -74px;
-    top: -10px;
-    width: 0; 
+h1:before {
+  animation: before-glow 2s ease-out infinite alternate;
+  border-left: 535px solid transparent;
+  border-bottom: 10px solid #ABEBC6;
+  content: ' ';
+  height: 0;
+  position: absolute;
+  right: -74px;
+  top: -10px;
+  width: 0; 
 }
 
-  h1:after {
-    animation: after-glow 2s ease-out infinite alternate;
-    border-left: 100px solid transparent;
-    border-top: 16px solid #00a4a2;
-    content: ' ';
-    height: 0;
-    position: absolute;
-    right: -85px;
-    top: 24px;
-    transform: rotate(-47deg);
-    width: 0; 
+h1:after {
+  animation: after-glow 2s ease-out infinite alternate;
+  border-left: 100px solid transparent;
+  border-top: 16px solid #ABEBC6;
+  content: ' ';
+  height: 0;
+  position: absolute;
+  right: -85px;
+  top: 24px;
+  transform: rotate(-47deg);
+  width: 0; 
 }
 
 .In {
   border: 1px solid black;
-  background-color: #20B2AA;
+  background-color: #ABEBC6;
   font-weight: bolder;
   height: 25px;
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -90,8 +87,8 @@ a {
 .stark-login form {
   animation: form-entry 3s ease-in-out;
   background: #111;
-  background: linear-gradient(#004746, #111111);
-  border: 6px solid #00a4a2;
+  background: linear-gradient(#EDBB99, #ABEBC6);
+  border: 6px solid #ABEBC6;
   box-shadow: 0 0 15px #00fffd;
   border-radius: 5px;
   display: inline-block;
@@ -100,7 +97,9 @@ a {
   position: relative;
   z-index: 4;
   width: 500px;
-  transition: 1s all; }
+  transition: 1s all; 
+}
+
   .stark-login form:hover {
     border: 6px solid #00fffd;
     box-shadow: 0 0 25px #00fffd;
@@ -129,7 +128,7 @@ a {
   animation: box-glow 1s ease-out infinite alternate;
   background: #0B4252;
   background: linear-gradient(#333933, #222922);
-  border-color: #00fffc;
+  border-color: #ABEBC6;
   box-shadow: 0 0 5px rgba(0, 255, 253, 0.2), inset 0 0 5px rgba(0, 255, 253, 0.1), 0 2px 0 black;
   color: #efe;
   outline: none; 
@@ -171,13 +170,6 @@ a {
   color: #00fffc;
   outline: none;
   transition: 1s all; 
-}
-
-.stark-login a:active {
-  background: #292929;
-  background: linear-gradient(#393939, #292929);
-  box-shadow: 0 1px 0 #000, inset 1px 0 1px #222;
-  top: 1px; 
 }
 
 .centrado{
